@@ -1,0 +1,11 @@
+id = "agda"
+name = "Agda"
+version = "0.0.1"
+schema_version = 1
+authors = ["Haohan Yang yanghaohanmail@gmail.com"]
+description = "Agda support."
+repository = "https://github.com/haohanyang/agda-zed"
+
+[grammars.agda]
+repository = "https://github.com/tree-sitter/tree-sitter-agda"
+rev = "b9b32fa042c2952a7bfca86847ea325e44ccc897"

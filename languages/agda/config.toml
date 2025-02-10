@@ -1,0 +1,5 @@
+name = "Agda"
+grammar = "agda"
+path_suffixes = ["agda"]
+line_comments = ["-- "]
+block_comment = ["{- ", " -}"]
