@@ -1,3 +1,4 @@
+;; From https://github.com/tree-sitter/tree-sitter-agda/blob/master/queries/highlights.scm
 ;; Constants
 (integer) @constant
 
