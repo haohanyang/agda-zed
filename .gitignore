@@ -1,2 +1,4 @@
-grammars/
-target/
+grammars
+als-Agda-*
+/target
+*.wasm
