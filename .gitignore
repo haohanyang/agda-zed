@@ -1,5 +1,7 @@
 grammars
 als-Agda-*
+*.agda
+*.agdai
 /target
 *.wasm
 tree-sitter-agda/
