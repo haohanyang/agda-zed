@@ -1,6 +1,6 @@
 id = "agda"
 name = "Agda"
-version = "0.1.0"
+version = "0.2.0"
 schema_version = 1
 authors = ["Haohan Yang yanghaohanmail@gmail.com"]
 description = "Agda support."
