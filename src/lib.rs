@@ -16,13 +16,15 @@ impl zed::Extension for AgdaExtension {
         let settings = LspSettings::for_worktree("als", worktree)?;
 
         if let Some(binary) = settings.binary {
-            return Ok(
-                zed::Command {
-                    command: binary.path.expect("Error in opening binary for Agda LSP"),
-                    args: vec![],
-                    env: vec![]
-                }
-            )
+            if let Some(binary_path) = binary.path {
+                return Ok(
+                    zed::Command {
+                        command: binary_path,
+                        args: vec![],
+                        env: vec![]
+                    }
+                )
+            }
         }
 
         // get where als is located
