@@ -6,6 +6,14 @@
   (rhs (expr) @context)
 ) @item
 
+(module
+  (module_name) @name
+) @item
+
+(postulate
+  "postulate" @name
+) @item
+
 (data_signature
   (data_name) @name
   (expr) @context
